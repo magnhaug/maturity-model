@@ -1,4 +1,4 @@
 maturity-model
 ==============
 
-A Maturity Model for Continuous Delivery
+A Maturity Model for Distributed systems
