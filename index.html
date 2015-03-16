@@ -13,7 +13,7 @@
             margin:0 auto;
         }
     </style>
-    <body class>
+    <body>
 <div class="bekk-logo-container" style="display: block;"><div class="bekk-logo"></div></div>
         <div id="content">
             <h1>A Maturity Model for Distributed Systems</h1>
@@ -32,9 +32,9 @@
                     <tr>
                         <th scope="row">Advanced</th>
                         <td><span class="topic">SLAs</span> are continously tested and monitored.
-                        <br>Everything runs on immutable servers or <span class="topic">microcontainers</span>.
+                        <br>Everything runs on immutable servers or <span class="topic">containers</span>.
                         <br>You can query a live <span class="topic">dependency graph</span> to see which applications are actively in use.
-                        <br>Your <span class="topic">infrastructure is fully automated</span>.
+                        <br>Your <span class="topic">infrastructure setup</span> is fully automated.
                         </td>
                         
 			<td>You mainly run <span class="topic">small projects</span>.
@@ -45,9 +45,9 @@
 			<td>Teams use <span class="topic">consumer driven contracts</span> and contiously gather feedback.
 			</td>
                         
-			<td>You use <span class="topic">polyglot persistence<span> and <span class="topic">event sourcing</span> where it makes sense.
-                        <br>Well controlled transaction scopes, <span class="topic">idempotency</span> where possible
-                        <br><span class="topic">12 factor</span> applications
+			<td>You use <span class="topic">polyglot persistence</span> and <span class="topic">event sourcing</span> where it makes sense.
+                        <br>Well controlled transaction scopes, <span class="topic">idempotency</span> where possible.
+                        <br>You follow the <span class="topic">12 factor application</span> guidelines.
                         </td>
                     </tr>
                     <tr>
@@ -64,7 +64,7 @@
 			Minimum Viable Bureaucracy is enforced.
                         </td>
                         
-			<td><span class="topic">Stateless services</span>, that recover seamlessly after errors or downtime.
+			<td><span class="topic">Stateless applications</span>, that recover seamlessly after errors or downtime.
                         <br>Automated failover and load balancing.
                         <br><span class="topic">Service versioning</span> with automatic backwards compatibility testing.
                         </td>
@@ -103,7 +103,7 @@
                         <br>Most projects are <span class="topic">fixed price projects<span>.
                         </td>
                         
-			<td>You have big <span class="topic">monolithic applications</span> and shared framework.
+			<td>You have big <span class="topic">monolithic applications</span> or shared frameworks.
                         <br>Architecture driven by a slow-to-change ESB.
                         </td>
                     </tr>

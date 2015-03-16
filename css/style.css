@@ -64,6 +64,6 @@ table.table1{
     color:#666;
     text-shadow:1px 1px 1px #fff;
 }
-.table1 tbody td:hover .topic{
-    text-decoration: underline;
+.table1 tbody td .topic{
+    font-style: italic;
 }
